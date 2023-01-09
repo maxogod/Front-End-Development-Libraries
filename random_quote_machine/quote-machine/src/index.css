@@ -1,0 +1,52 @@
+button:hover {
+  filter: brightness(1.1);
+}
+
+h4,
+p {
+  transition: 250ms;
+}
+
+nav {
+  background: rgba(255, 255, 255, 0.082);
+  position: absolute;
+  width: 100%;
+  text-align: end;
+  padding-top: 12px;
+  padding-right: 40px;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul a {
+  font-weight: bolder;
+  font-size: 1.3rem;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.493);
+}
+
+nav ul a:hover {
+  transition: 250ms;
+  color: rgb(255, 255, 255);
+}
+
+footer {
+  color: white;
+  position: absolute;
+  bottom: 0vh;
+  width: 100%;
+  text-align: center;
+}
+
+footer a {
+  font-weight: bolder;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.514);
+}
+
+footer a:hover {
+  transition: 250ms;
+  color: rgba(255, 255, 255, 0.493);
+}
